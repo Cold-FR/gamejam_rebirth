@@ -2,7 +2,7 @@ import { join } from "node:path";
 
 export default {
   base: "./",
-  root: join(import.meta.dirname, "src"),
+  root: import.meta.dirname,
   build: {
     outDir: join(import.meta.dirname, "build"),
   },
