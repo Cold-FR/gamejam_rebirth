@@ -190,22 +190,22 @@ export default class Game extends Phaser.Scene {
 
   preload() {
     preload(this);
-    this.load.image("background", "/background.png");
-    this.load.image("boat", "/boat.png");
-    this.load.image("castle", "/castle.png");
-    this.load.audio("music1", "/sounds/music1.mp3");
-    this.load.audio("music2", "/sounds/music2.mp3");
-    this.load.audio("music3", "/sounds/music3.mp3");
-    this.load.audio("sword1", "/sounds/swordhit1.wav");
-    this.load.audio("sword2", "/sounds/swordhit2.wav");
-    this.load.audio("sword3", "/sounds/swordhit3.wav");
-    this.load.audio("canonshoot", "/sounds/canonshoot.wav");
-    this.load.audio("bowattack1", "/sounds/bowattack1.wav");
-    this.load.audio("bowattack2", "/sounds/bowattack2.wav");
-    this.load.audio("bowhit1", "/sounds/bowhit1.wav");
-    this.load.audio("bowhit2", "/sounds/bowhit2.wav");
-    this.load.audio("victory", "/sounds/victory.mp3");
-    this.load.audio("defeat", "/sounds/gameover.mp3");
+    this.load.image("background", "./background.png");
+    this.load.image("boat", "./boat.png");
+    this.load.image("castle", "./castle.png");
+    this.load.audio("music1", "./sounds/music1.mp3");
+    this.load.audio("music2", "./sounds/music2.mp3");
+    this.load.audio("music3", "./sounds/music3.mp3");
+    this.load.audio("sword1", "./sounds/swordhit1.wav");
+    this.load.audio("sword2", "./sounds/swordhit2.wav");
+    this.load.audio("sword3", "./sounds/swordhit3.wav");
+    this.load.audio("canonshoot", "./sounds/canonshoot.wav");
+    this.load.audio("bowattack1", "./sounds/bowattack1.wav");
+    this.load.audio("bowattack2", "./sounds/bowattack2.wav");
+    this.load.audio("bowhit1", "./sounds/bowhit1.wav");
+    this.load.audio("bowhit2", "./sounds/bowhit2.wav");
+    this.load.audio("victory", "./sounds/victory.mp3");
+    this.load.audio("defeat", "./sounds/gameover.mp3");
   }
 
   #createAnims() {
