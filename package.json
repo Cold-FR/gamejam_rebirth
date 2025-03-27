@@ -1,5 +1,6 @@
 {
   "name": "gamejam",
+  "description": "Jeu créé à l'occasion de la GameJam édition 2025",
   "private": true,
   "version": "0.0.0",
   "type": "module",
